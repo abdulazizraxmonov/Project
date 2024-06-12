@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-20 09:30:05 "/>
+        <attribute name="created" value="SFA7REVTS1RPUC0zTFRNN0hIOzIwMjMtMDktMjA7IjA4OjA0OjE4ICI7MjQxNg=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC0zTFRNN0hIOzIwMjMtMDktMjA7IjA5OjMwOjA1ICI7MTY7MjU3NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;ikinchi soni kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="a*b" newline="True"/>
+            <assign variable="c" expression="2*(a+b)"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
